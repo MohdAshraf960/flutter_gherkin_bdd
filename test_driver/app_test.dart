@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter_gherkin/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 
-import 'steps/steps.dart';
+import 'step_definition/step_definition.dart';
 
 Future<void> main(List<String> args) {
   if (args.isEmpty) {
