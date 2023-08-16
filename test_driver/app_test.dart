@@ -30,6 +30,7 @@ Future<void> main(List<String> args) {
       SubmitSteps(),
       InitialStateHomePage()
     ]
+    ..order = ExecutionOrder.sequential
     ..restartAppBetweenScenarios = false
     ..targetAppWorkingDirectory = '../'
     ..runningAppProtocolEndpointUri = args[0]
