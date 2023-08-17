@@ -1,0 +1,19 @@
+{
+    "port": 4723,
+    "waitforTimeout": 30000,
+    "connectionRetryTimeout": 120000,
+    "connectionRetryCount": 3,
+    "capabilities": {
+        "platformName": "Android",
+        "appium:noReset": false,
+        "appium:fullReset": true,
+        "appium:automationName": "Flutter",
+        "appium:autoGrantPermissions":true,
+        "appium:deviceName": "emulator-5554",
+        "appium:platformVersion": "13",
+        "flutter:setFrameSync": false,
+        "appium:retryBackoffTime": 500,
+        "appium:app":"appium_test/app",
+        "appium:newCommandTimeout": 0
+    }
+}
