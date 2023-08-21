@@ -13,7 +13,7 @@
         "appium:platformVersion": "13",
         "flutter:setFrameSync": false,
         "appium:retryBackoffTime": 500,
-        "appium:app":"appium_test/app",
+        "appium:app":"",
         "appium:newCommandTimeout": 0
     }
 }

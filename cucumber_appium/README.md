@@ -1,2 +1,0 @@
-#setup
- npm init wdio

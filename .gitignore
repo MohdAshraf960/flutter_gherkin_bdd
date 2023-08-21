@@ -46,5 +46,5 @@ app.*.map.json
 /appium_test/node_modules
 /appium_test/package-lock.json
 
-/cucumber_appium/node_modules
-/cucumber_appium/package-lock.json
+/appium_automation/node_modules
+/appium_automation/package-lock.json
